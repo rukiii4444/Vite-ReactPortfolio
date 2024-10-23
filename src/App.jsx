@@ -1,17 +1,25 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './header'
 import Main from './bodyMain'
 import Footer from './footer'
+import Blog from './blogs/blogMain';
+import Contact from './contact';
+
 import './App.css'
 
 function App() {
 
   return (
-    <div>
+    <Router>
       <Header />
-      <Main />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </div>  
-  )
+    </Router>
+  );
 }
 
 export default App
