@@ -1,14 +1,14 @@
 export default function Main() {
     return(
         <main>
-            <p className="main-title">creat design.</p>
-            <p className="sub-title">My portfolio</p>
+            <p className="animate__animated animate__fadeInLeft main-title">creat design.</p>
+            <p className="animate__animated animate__fadeInLeft sub-title">Portfolio</p>
             <div className="contents">
                 <p className="contents-title">Contents list</p>
                 <div className="contents-item-list">
                 <div className="contents-item">
                     <img 
-                    src="/my-portfolio-repo/my-portfolio/portfolio-contents/calclator-Javascript/スクリーンショット 2023-10-27 20.09.39.jpeg" 
+                    src="/スクリーンショット 2023-10-27 20.09.39.jpeg" 
                     alt="" 
                     className="contents-thumbnail" 
                     />
