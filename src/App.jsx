@@ -7,23 +7,18 @@ import Contact from './contact';
 
 import './App.css';
 import 'animate.css/animate.min.css';
-import 'animate.css/animate.min.css';
 
-
-
-function App() {
+export default function App() {
 
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/Blog" element={<Blog />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/blogs/Blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
   );
 }
-
-export default App

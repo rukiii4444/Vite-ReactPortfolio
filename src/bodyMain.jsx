@@ -1,8 +1,16 @@
 export default function Main() {
     return(
         <main>
-            <p className="animate__animated animate__fadeInLeft main-title">creat design.</p>
-            <p className="animate__animated animate__fadeInLeft sub-title">Portfolio</p>
+            <p 
+            className="
+            animate__animated animate__fadeInLeft 
+            main-title"
+            style={{ animationDuration: '2s' }}>
+                creat design.</p>
+            <p className="
+            animate__animated animate__fadeInLeft sub-title"
+            style={{ animationDuration: '2.5s' }}>
+                Portfolio</p>
             <div className="contents">
                 <p className="contents-title">Contents list</p>
                 <div className="contents-item-list">
